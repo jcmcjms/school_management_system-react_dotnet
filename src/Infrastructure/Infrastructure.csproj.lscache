@@ -46,6 +46,8 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 
 [sourceFiles]
 Class1.cs
+Data/ApplicationDbContext.cs
+DependencyInjection.cs
 obj/Debug/net8.0/
  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
  Infrastructure.AssemblyInfo.cs

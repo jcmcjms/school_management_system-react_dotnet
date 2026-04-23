@@ -56,13 +56,26 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 Class1.cs
 DependencyInjection.cs
 Interfaces/
+ IAuditService.cs
+ IAuthService.cs
+ ICartService.cs
+ ICashierService.cs
  IEmailService.cs
  IFileStorageService.cs
+ IInventoryService.cs
  IJwtTokenService.cs
+ IKitchenService.cs
+ IMenuItemService.cs
+ IMenuScheduleService.cs
+ INotificationService.cs
+ IOrderService.cs
+ IQrTokenService.cs
  IRealTimeNotifier.cs
  IRedisCacheService.cs
+ IReportService.cs
  IRepository.cs
  IUnitOfWork.cs
+ IWalletService.cs
 obj/Debug/net8.0/
  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
  Application.AssemblyInfo.cs

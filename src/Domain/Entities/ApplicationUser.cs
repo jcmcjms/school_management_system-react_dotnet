@@ -17,6 +17,9 @@ public class ApplicationUser : IdentityUser<Guid>
     public bool IsActive { get; set; } = true;
 
     public DateTime? LastLoginAt { get; set; }
+    public string? RefreshToken { get; set; }
+    public DateTime? RefreshTokenExpiry { get; set; }
+    public DateTime CreatedAt { get; set; }
 
     // Navigation properties
     public virtual Student? Student { get; set; }

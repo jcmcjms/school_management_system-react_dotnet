@@ -13,8 +13,16 @@ primary
 lastDtbSucceeded
 
 [properties]
+AssemblyName=API
 CommandLineArgsForDesignTimeEvaluation=-langversion:12.0 -define:TRACE
+CompilerGeneratedFilesOutputPath=
 MaxSupportedLangVersion=12.0
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=API
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=<PATH>../../SchoolManagement.slnx
+TargetFrameworkIdentifier=.NETCoreApp
 TargetPath=<PATH>bin/Debug/net8.0/API.dll
 TargetRefPath=<PATH>obj/Debug/net8.0/ref/API.dll
 TemporaryDependencyNodeTargetIdentifier=net8.0

@@ -55,6 +55,14 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 [sourceFiles]
 Class1.cs
 DependencyInjection.cs
+Interfaces/
+ IEmailService.cs
+ IFileStorageService.cs
+ IJwtTokenService.cs
+ IRealTimeNotifier.cs
+ IRedisCacheService.cs
+ IRepository.cs
+ IUnitOfWork.cs
 obj/Debug/net8.0/
  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
  Application.AssemblyInfo.cs

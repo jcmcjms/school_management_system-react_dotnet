@@ -53,6 +53,7 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Cache/RedisCacheService.cs
 Data/
  ApplicationDbContext.cs
  Configurations/
@@ -78,6 +79,7 @@ Data/
   WalletConfiguration.cs
   WasteLogConfiguration.cs
 DependencyInjection.cs
+Email/SmtpEmailService.cs
 Identity/JwtTokenService.cs
 obj/Debug/net8.0/
  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
@@ -86,7 +88,9 @@ obj/Debug/net8.0/
 Repositories/
  Repository.cs
  UnitOfWork.cs
-SignalR/CanteenHub.cs
+SignalR/
+ CanteenHub.cs
+ SignalRNotifier.cs
 Storage/LocalFileStorageService.cs
 
 [metadataReferences]

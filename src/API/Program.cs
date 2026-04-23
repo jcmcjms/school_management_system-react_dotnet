@@ -134,6 +134,7 @@ using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     await dbContext.Database.MigrateAsync();
+    await dbContext.SeedAsync(scope.ServiceProvider);
 }
 
 app.Run();

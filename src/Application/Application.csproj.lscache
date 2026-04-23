@@ -55,6 +55,54 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 [sourceFiles]
 Class1.cs
 DependencyInjection.cs
+DTOs/Auth/
+ AuthResponse.cs
+ ChangePasswordRequest.cs
+ LoginRequest.cs
+ RefreshTokenRequest.cs
+ RegisterRequest.cs
+ UserDto.cs
+DTOs/Canteen/
+ CanteenSettingsDto.cs
+ CreateDietaryTagRequest.cs
+ CreateMenuItemRequest.cs
+ CreateMenuScheduleRequest.cs
+ DietaryTagDto.cs
+ MenuItemDto.cs
+ MenuScheduleDto.cs
+ UpdateCanteenSettingsRequest.cs
+ UpdateMenutItemRequest.cs
+ WeeklyMenuRequest.cs
+DTOs/
+ Cashier/DailySummaryDto.cs
+ Common/
+  BaseResponse.cs
+  PagedResult.cs
+  PaginationParams.cs
+  Result.cs
+ Inventory/
+  CreateInventoryItemRequest.cs
+  CreatePurchaseOrderItemRequest.cs
+  CreatePurchaseOrderRequest.cs
+  CreateSupplierRequest.cs
+  CreateWasteLogRequest.cs
+  InventoryItemDto.cs
+  PurchaseOrderDto.cs
+  PurchaseOrderItemDto.cs
+  SupplierDto.cs
+  WasteLogDto.cs
+ Notifications/NotificationDto.cs
+ Orders/
+  CartItemDto.cs
+  OrderDetailDto.cs
+  OrderDto.cs
+  OrderItemDto.cs
+  PlaceOrderRequest.cs
+ Wallet/
+  TopUpRequest.cs
+  TransactionDto.cs
+  TransactionQueryRequest.cs
+  WalletDto.cs
 Interfaces/
  IAuditService.cs
  IAuthService.cs
@@ -76,10 +124,21 @@ Interfaces/
  IRepository.cs
  IUnitOfWork.cs
  IWalletService.cs
+Mappings/
+ CanteenMappingProfile.cs
+ InventoryMappingProfile.cs
+ MappingProfile.cs
+ UserMappingProfile.cs
 obj/Debug/net8.0/
  .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
  Application.AssemblyInfo.cs
  Application.GlobalUsings.g.cs
+Validators/
+ CreateMenuItemRequestValidator.cs
+ LoginRequestValidator.cs
+ PlaceOrderRequestValidator.cs
+ RegisterRequestValidator.cs
+ TopUpRequestValidator.cs
 
 [metadataReferences]
 ../Domain/obj/Debug/net8.0/ref/Domain.dll

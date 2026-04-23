@@ -1,3 +1,6 @@
+using Application.DTOs.Auth;
+using Application.DTOs.Common;
+
 namespace Application.Interfaces;
 
 public interface IAuthService
